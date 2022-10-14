@@ -1,6 +1,7 @@
 import React from 'react'
 import {useDispatch, useSelector} from 'react-redux'
 import { decrementCounter, incrementCounter, resetCounter } from '../services/actions/CounterActions'
+import './style.css'
 
 const Counter = () => {
     const count=useSelector(state=>state.count)
@@ -20,9 +21,9 @@ const Counter = () => {
         <div>
             <h2>Counter App</h2>
             <h3>Count : {count}</h3>
-            <button onClick={handleIncrement}>Increment</button>
-            <button onClick={handleDecrement}>Decrement</button>
-            <button onClick={handleReset}>Reset</button>
+            <button className='increment-btn' onClick={handleIncrement}>Increment</button>
+            <button className='decrement-btn'onClick={handleDecrement}>Decrement</button>
+            <button className='reset-btn'onClick={handleReset}>Reset</button>
         </div>
     )
 }

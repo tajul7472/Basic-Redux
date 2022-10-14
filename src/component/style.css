@@ -1,0 +1,30 @@
+.increment-btn{
+    padding: 0.5rem;
+    background-color: aquamarine;
+    outline: none;
+    border-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+}
+.decrement-btn{
+    padding: 0.5rem;
+    background-color: cadetblue;
+    outline: none;
+    border-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
+.reset-btn{
+    padding: 0.5rem;
+    background-color: rgb(1, 28, 29);
+    color: #fff;
+    outline: none;
+    border-style: none;
+    font-size: 1rem;
+    cursor: pointer;
+    margin-right: 1rem;
+
+}
